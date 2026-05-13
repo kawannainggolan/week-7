@@ -27,4 +27,6 @@ public abstract class produk {
     public int getStok() {
         return stok;
     }
+    
+    public abstract double hitungHargaAkhir(int jmlhBeli);
 }

@@ -8,5 +8,16 @@ public abstract class produk {
         this.harga = harga;
         this.stok = stok;
     }
+
+    public void tampilInfo() {
+        System.out.println("=== Produk ====");
+        System.out.println("Nama: " + nama);
+        System.out.println("Harga: " + harga);
+        System.out.println("Stok: " + stok);
+    }
+
+    public double hitungTotalHarga(int jmlhBeli) {
+        return jmlhBeli * harga;
+    }
     
 }

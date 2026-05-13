@@ -10,5 +10,11 @@ public class Elektronik extends produk {
         System.out.println("Total Harga=" + hitungTotalHarga(jmlhBeli));
         return hitungTotalHarga(jmlhBeli) * 0.85;
     }
+
+    @Override
+    public void tampilInfo() {
+        super.tampilInfo();
+        System.out.println("Masa Garansi: " + masaGaransi + "Tahun");
+    }
 }
 

@@ -20,4 +20,11 @@ public abstract class produk {
         return jmlhBeli * harga;
     }
     
+    public void setStok(int jmlBeli) {
+        stok = stok - jmlBeli;
+    }
+
+    public int getStok() {
+        return stok;
+    }
 }
